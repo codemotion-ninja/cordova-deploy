@@ -32,7 +32,7 @@ There is a second option, in the root level of your project, add a file named ho
 	"api_key": "some_api_key",
 	"android_app_id": "some_android_app_id",
 	"ios_app_id": "some_ios_app_id",
-	"apk": "the_path_to_the_output_apk_file" (can be relative or absolute)
+	"apk": "the_path_to_the_output_apk_file"
 }
 ```
 
