@@ -23,7 +23,7 @@ First ensure you have a HockeyApp account with an active App ID (one for each pl
 You can specify the api key, ios app id, and android app id from the command line with their proper parameters.
 
 To build and deploy the cordova iOS and Android applications to HockeyApp, run the following command in your shell with the following parameters:
-`cordova-deploy --build --ios --android --hockey --apikey some_api_key --iosid some_ios_app_id --andid some_android_app_id`
+`cordova-deploy --build --ios --android --apikey some_api_key --iosid some_ios_app_id --andid some_android_app_id`
 
 There is a second option, in the root level of your project, add a file named hockey.json that looks something like this:
 
@@ -40,7 +40,7 @@ NOTE: you may want to add the hockey.json file to your .gitignore as to avoid ma
 
 Then your command to build and deploy looks more like this:
 
-`cordova-deploy --build --ios --hockey`
+`cordova-deploy --build --ios`
 
 Additional Information
 ===========
