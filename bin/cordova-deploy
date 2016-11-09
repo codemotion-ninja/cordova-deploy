@@ -67,7 +67,7 @@ if(!somethingToBuild) {
 if(program.apk) {
   //Parameter overrides config + default
   apkPath = program.apk;
-} else if (hockeyConfig.apk) {
+} else if (hockeyConfig && hockeyConfig.apk) {
   //Config overrides default
   apkPath = hockeyConfig.apk;
 } else {
